@@ -1,0 +1,24 @@
+services:
+  backend:
+    image: node:lts
+    container_name: mangle-website
+    volumes:
+      - type: bind
+        source: .
+        target: /mangle_website
+        read_only: true
+    ports:
+      - "80:80"
+      - "443:443"
+    restart: on-failure
+    working_dir: "/mangle_website"
+    command: [ "npm", "run", "dev" ]
+    secrets:
+      - server-cert
+      - server-key
+
+secrets:
+  server-cert:
+    file: /etc/letsencrypt/live/manglemix.com/fullchain.pem
+  server-key:
+    file: /etc/letsencrypt/live/manglemix.com/privkey.pem
