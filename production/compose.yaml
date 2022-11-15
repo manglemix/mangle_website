@@ -1,0 +1,41 @@
+services:
+  backend:
+    image: node:lts
+    container_name: mangle-website
+    volumes:
+      - type: bind
+        source: ./build
+        target: /mangle_website/build
+        read_only: true
+      - type: bind
+        source: ./node_modules
+        target: /mangle_website/node_modules
+        read_only: true
+      - type: bind
+        source: ./app.js
+        target: /mangle_website/app.js
+        read_only: true
+      - type: bind
+        source: ./package-lock.json
+        target: /mangle_website/package-lock.json
+        read_only: true
+      - type: bind
+        source: ./package.json
+        target: /mangle_website/package.json
+        read_only: true
+    ports:
+      - "443:443"
+    restart: on-failure
+    working_dir: "/mangle_website"
+    command: [ "node", "app.js" ]
+    environment:
+      PORT: 443
+    secrets:
+      - server-cert
+      - server-key
+
+secrets:
+  server-cert:
+    file: /etc/letsencrypt/live/manglemix.com/fullchain.pem
+  server-key:
+    file: /etc/letsencrypt/live/manglemix.com/privkey.pem
