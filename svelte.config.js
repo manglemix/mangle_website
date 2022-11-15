@@ -3,7 +3,7 @@ import adapter from '@sveltejs/adapter-node';
 export default {
   kit: {
 		adapter: adapter({
-      out: 'production/build',
+      out: 'mangle_website_production/build',
       precompress: true
     })
   }
