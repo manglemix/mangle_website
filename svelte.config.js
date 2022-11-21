@@ -1,10 +1,10 @@
 import adapter from '@sveltejs/adapter-node';
 
 export default {
-  kit: {
+	kit: {
 		adapter: adapter({
-      out: 'mangle_website_production/build',
-      precompress: true
-    })
-  }
+			out: 'mangle_website_production/build',
+			precompress: true
+		})
+	}
 };

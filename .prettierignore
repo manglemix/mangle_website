@@ -6,6 +6,7 @@ node_modules
 .env
 .env.*
 !.env.example
+/mangle_website_production
 
 # Ignore files for PNPM, NPM and YARN
 pnpm-lock.yaml
