@@ -1,9 +1,10 @@
-<div class="haderDiv">
+<div class="headerDiv">
 	<name>&nbsp;Najman Husaini</name>
 	<div class="navDiv">
 		<h3><a href="/">Home</a></h3>
 		<h3><a href="/about">About</a></h3>
 		<h3><a href="/contacts">Contacts</a></h3>
+		<h3><a href="/security">Security</a></h3>
 	</div>
 </div>
 <hr />
@@ -26,9 +27,10 @@
 		text-align: center;
 	}
 
-	:global(a) {
+	a {
 		text-decoration: none;
 	}
+
 
 	:global(body) {
 		background-color: #0c0c0c;
@@ -55,14 +57,14 @@
 		font-family: 'Jetbrains Mono';
 	}
 
-	.haderDiv {
+	.headerDiv {
 		width: 100%;
 		display: inline-flex;
 		justify-content: space-between;
 	}
 
 	.navDiv {
-		width: 250px;
+		width: 300px;
 		display: inline-flex;
 		justify-content: space-around;
 	}

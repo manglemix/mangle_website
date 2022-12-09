@@ -1,0 +1,9 @@
+CREATE TABLE PasswordUsers (
+    Username NVARCHAR(16) NOT NULL PRIMARY KEY,
+    Salt BYTES(8) NOT NULL,
+    Hash BYTES(32) NOT NULL
+);
+CREATE TABLE KeyUsers (
+    Username NVARCHAR(16) NOT NULL PRIMARY KEY,
+    PubKey BYTES(32) NOT NULL
+);
