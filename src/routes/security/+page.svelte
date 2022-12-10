@@ -12,7 +12,7 @@
     containers. I will eventually switch to Podman as that is slightly more secure. One container runs
     Nginx, and it is the only public facing container. It performs HTTPS authentication and serves static
     content. From here, requests are either routed to my website container, which is just Node.js, or to
-    my API, which is built on Rust. View the security details for it <a href="security">here</a>.
+    my API, which is built on Rust. View the security details for it <a href="security/mangle_api">here</a>.
     <br>
     <br>
     All these crates only have the ability to read from specific directories that I have to explicitly allow.
