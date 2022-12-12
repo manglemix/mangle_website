@@ -4,9 +4,10 @@
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
-		"build": "vite build",
+		"release": "vite build && cd mangle_website_production && git add * && git commit -m 'Release build' && git push && plink mangle_website -batch \"cd mangle_website_production && git pull && sudo docker container restart mangle-website && sleep 3 && sudo docker container logs mangle-website",
 		"preview": "vite preview",
 		"test": "playwright test",
+		"restart_api": "plink mangle_website -batch \"cd mangle_website_production && git pull && sudo docker container restart mangle-api && sleep 3 && cat logs/api/errors.log\"",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
