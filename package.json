@@ -4,6 +4,7 @@
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
+		"build": "vite build",
 		"release": "vite build && cd mangle_website_production && git add * && git commit -m 'Release build' && git push && plink mangle_website -batch \"cd mangle_website_production && git pull && sudo docker container restart mangle-website && sleep 3 && sudo docker container logs mangle-website",
 		"preview": "vite preview",
 		"test": "playwright test",
@@ -15,7 +16,7 @@
 	},
 	"devDependencies": {
 		"@playwright/test": "1.25.0",
-		"@sveltejs/adapter-node": "next",
+		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
 		"@typescript-eslint/eslint-plugin": "^5.27.0",
 		"@typescript-eslint/parser": "^5.27.0",
