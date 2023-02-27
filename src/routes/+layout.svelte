@@ -4,7 +4,7 @@
 		<h3><a href="/">Home</a></h3>
 		<h3><a href="/about">About</a></h3>
 		<h3><a href="/contacts">Contacts</a></h3>
-		<h3><a href="/security">Security</a></h3>
+		<!-- <h3><a href="/security">Security</a></h3> -->
 	</div>
 </div>
 <hr />
