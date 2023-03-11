@@ -1,3 +1,6 @@
+<title>
+	Manglemix
+</title>
 <div class="headerDiv">
 	<name>&nbsp;Najman Husaini</name>
 	<div class="navDiv">
