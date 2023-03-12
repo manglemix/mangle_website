@@ -4,7 +4,7 @@
 declare namespace App {
 	// interface Locals {}
 	interface PageData {
-		[blogs]: Array
+		[blogs]: Array;
 	}
 	// interface Error {}
 	// interface Platform {}

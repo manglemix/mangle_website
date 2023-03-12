@@ -1,6 +1,4 @@
-<title>
-	Manglemix
-</title>
+<title> Manglemix </title>
 <div class="headerDiv">
 	<name>&nbsp;Najman Husaini</name>
 	<div class="navDiv">
@@ -33,7 +31,6 @@
 	a {
 		text-decoration: none;
 	}
-
 
 	:global(body) {
 		background-color: #0c0c0c;
