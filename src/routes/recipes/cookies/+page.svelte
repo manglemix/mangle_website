@@ -8,7 +8,7 @@
 	About 1 tsp salt (if used unsalted butter)<br />
 	1/2 tsp baking soda<br />
 	1 egg<br />
-	1 2/3 cup (90g) all-purpose flour<br />
+	1 2/3 cup (at least 230g) all-purpose flour<br />
 	1 cup chocolate chips<br />
 	<br />
 	Broil first<br />
