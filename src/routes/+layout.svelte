@@ -1,26 +1,24 @@
 <title> Manglemix </title>
 <div class="headerDiv">
-	<name>&nbsp;Najman Husaini</name>
 	<div class="navDiv">
 		<h3><a href="/">Home</a></h3>
-		<h3><a href="/about">About</a></h3>
 		<h3><a href="/contacts">Contacts</a></h3>
-		<!-- <h3><a href="/security">Security</a></h3> -->
 	</div>
 </div>
 <hr />
 
 <slot />
 
+<br>
+<br>
+<hr />
+<br>
+<br>
+<br>
+<br>
 <style>
 	@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 	@import url('https://fonts.googleapis.com/css?family=JetBrains+Mono');
-
-	name {
-		font-family: 'Open Sans';
-		font-size: 40px;
-		font-weight: bold;
-	}
 
 	:global(*) {
 		font-family: 'Open Sans';
@@ -60,7 +58,7 @@
 	.headerDiv {
 		width: 100%;
 		display: inline-flex;
-		justify-content: space-between;
+		justify-content: center;
 	}
 
 	.navDiv {
