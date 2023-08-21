@@ -1,9 +1,8 @@
 <script>
     import { page } from '$app/stores';
-	$page.url.origin
 </script>
 
-{#if $page.url.hostname == "manglemix.com"}
+{#if $page.url.hostname == "www.manglemix.com"}
 <h1>Manglemix</h1>
 <h3>Or if you prefer my real name, Najman Husaini</h3>
 {:else}
