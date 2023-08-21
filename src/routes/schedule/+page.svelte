@@ -18,9 +18,7 @@
         <hr>
 
         {#each items as item}
-            {#if item.lastDate !== undefined && (item.lastDate[0] < date.getMonth() || item.lastDate[1] < date.getDate())}
-                <!-- Already expired -->
-            {:else if !item.days.includes(DAYS[date.getDay() + i])}
+            {#if !item.days.includes(DAYS[date.getDay() + i])}
                 <!-- Wrong day -->
             {:else}
             <div class="item">

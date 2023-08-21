@@ -10,9 +10,8 @@
         "name": "Club Rush",
         "from": "1:20 PM",
         "to": "2:00 PM",
-        "days": ["Wednesday"],
         "location": "WEB",
-        "lastDate": "8/23"
+        "date": "8/23"
     },
     {
         "name": "CS 3540",

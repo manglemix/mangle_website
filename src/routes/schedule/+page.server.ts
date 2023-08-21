@@ -1,10 +1,40 @@
+function daysInMonth(month: number) {
+    return new Date(new Date().getFullYear(), month, 0).getDate();
+}
+
+
 /** @type {import('./$types').PageServerLoad} */
 export async function load(event) {
+    const DAYS = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
     const response = await event.fetch("/schedule.json");
     var items: any[] = await response.json();
-    items = items.map((item) => {
-        if (item.lastDate) {
-            item.lastDate = item.lastDate.split("/");
+    const date = new Date();
+    
+    items = items.filter((item) => {
+        if (item.date) {
+            const splitted = item.date.split("/");
+            const month = Number(splitted[0]) - 1;
+            const day = Number(splitted[1]);
+
+            var daysInAdvance;
+            if (month - 1 == date.getMonth()) {
+                daysInAdvance = day + daysInMonth(date.getMonth()) - date.getDate();
+            } else if (month == date.getMonth()) {
+                daysInAdvance = day - date.getDate();
+            } else {
+                return;
+            }
+
+            if (daysInAdvance > 7) {
+                return;
+            }
+
+            var dayOfWeek = daysInAdvance + date.getDay();
+            if (dayOfWeek > 7) {
+                dayOfWeek -= 7;
+            }
+            item.days = [DAYS[dayOfWeek]];
         }
         return item;
     });
