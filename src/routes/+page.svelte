@@ -1,5 +1,6 @@
 <script>
     import { page } from '$app/stores';
+	$page.url.origin
 </script>
 
 {#if $page.url.hostname == "manglemix.com"}

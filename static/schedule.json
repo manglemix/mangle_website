@@ -1,0 +1,59 @@
+[
+    {
+        "name": "CS 3810",
+        "from": "11:50 AM",
+        "to": "1:10 PM",
+        "location": "GC 1900",
+        "days": ["Monday", "Wednesday"]
+    },
+    {
+        "name": "Club Rush",
+        "from": "1:20 PM",
+        "to": "2:00 PM",
+        "days": ["Wednesday"],
+        "location": "WEB",
+        "lastDate": "8/23"
+    },
+    {
+        "name": "CS 3540",
+        "from": "3:00 PM",
+        "to": "4:20 PM",
+        "location": "WEB L103",
+        "days": ["Monday", "Wednesday"]
+    },
+    {
+        "name": "CS 3550",
+        "from": "4:35 PM",
+        "to": "5:55 PM",
+        "location": "WEB L104",
+        "days": ["Monday", "Wednesday"]
+    },
+    {
+        "name": "EAE 2100",
+        "from": "2:00 PM",
+        "to": "3:20 PM",
+        "location": "GC 2900",
+        "days": ["Tuesday"]
+    },
+    {
+        "name": "EAE 2100",
+        "from": "2:00 PM",
+        "to": "3:20 PM",
+        "location": "LNCO 2850",
+        "days": ["Thursday"]
+    },
+    {
+        "name": "TA Lab",
+        "from": "11:50 AM",
+        "to": "12:40 PM",
+        "location": "MEB 2325",
+        "days": ["Tuesday"]
+    },
+    {
+        "name": "TA Lab",
+        "from": "12:55 PM",
+        "to": "1:45 PM",
+        "location": "MEB 2325",
+        "days": ["Tuesday"]
+    }
+]
