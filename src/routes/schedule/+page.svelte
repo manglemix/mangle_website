@@ -24,6 +24,7 @@
             <div class="item">
                 {item.from}<br>
                 <b>{item.name}</b><br>
+                {item.location}<br>
                 {item.to}
             </div>
             <hr>
