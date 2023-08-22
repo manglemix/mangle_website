@@ -18,7 +18,7 @@
         <hr>
 
         {#each items as item}
-            {#if !item.days.includes(DAYS[date.getDay() + i])}
+            {#if (date.getDay() + i < 7 && !item.days.includes(DAYS[date.getDay() + i])) || (date.getDay() + i >= 7 && !item.days.includes(DAYS[date.getDay() + i - 7]))}
                 <!-- Wrong day -->
             {:else}
             <div class="item">
