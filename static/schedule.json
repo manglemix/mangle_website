@@ -67,5 +67,29 @@
         "to": "1:30 PM",
         "location": "MEB 3515",
         "days": ["Friday"]
+    },
+    {
+        "name": "Office Hours",
+        "from": "1:30 PM",
+        "to": "2:45 PM",
+        "days": ["Monday"]
+    },
+    {
+        "name": "Office Hours",
+        "from": "4:15 PM",
+        "to": "6:00 PM",
+        "days": ["Tuesday"]
+    },
+    {
+        "name": "Office Hours",
+        "from": "12:00 PM",
+        "to": "1:30 PM",
+        "days": ["Thursday"]
+    },
+    {
+        "name": "Office Hours",
+        "from": "4:30 PM",
+        "to": "6:00 PM",
+        "days": ["Friday"]
     }
 ]
