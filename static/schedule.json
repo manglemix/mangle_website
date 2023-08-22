@@ -60,5 +60,12 @@
         "from": "3:00 PM",
         "to": "5:00 PM",
         "date": "8/26"
+    },
+    {
+        "name": "TA Meeting",
+        "from": "1:00 PM",
+        "to": "1:30 PM",
+        "location": "MEB 3515",
+        "days": ["Friday"]
     }
 ]
