@@ -24,7 +24,9 @@
             <div class="item">
                 {item.from}<br>
                 <b>{item.name}</b><br>
-                {item.location}<br>
+                {#if item.location}
+                    {item.location}<br>
+                {/if}
                 {item.to}
             </div>
             <hr>

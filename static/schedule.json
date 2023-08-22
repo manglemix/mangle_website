@@ -54,5 +54,11 @@
         "to": "1:45 PM",
         "location": "MEB 2325",
         "days": ["Tuesday"]
+    },
+    {
+        "name": "Climb",
+        "from": "3:00 PM",
+        "to": "5:00 PM",
+        "date": "8/26"
     }
 ]
