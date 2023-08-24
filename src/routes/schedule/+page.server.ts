@@ -26,7 +26,7 @@ export async function load(event) {
                 return;
             }
 
-            if (daysInAdvance > 7) {
+            if (daysInAdvance > 7 || daysInAdvance < 0) {
                 return;
             }
 
