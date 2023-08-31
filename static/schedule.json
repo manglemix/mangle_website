@@ -7,13 +7,6 @@
         "days": ["Monday", "Wednesday"]
     },
     {
-        "name": "Club Rush",
-        "from": "1:20 PM",
-        "to": "2:00 PM",
-        "location": "WEB",
-        "date": "8/23"
-    },
-    {
         "name": "CS 3540",
         "from": "3:00 PM",
         "to": "4:20 PM",
@@ -56,12 +49,6 @@
         "days": ["Tuesday"]
     },
     {
-        "name": "Climb",
-        "from": "3:00 PM",
-        "to": "5:00 PM",
-        "date": "8/26"
-    },
-    {
         "name": "TA Meeting",
         "from": "1:00 PM",
         "to": "1:30 PM",
@@ -91,5 +78,11 @@
         "from": "4:30 PM",
         "to": "6:00 PM",
         "days": ["Friday"]
+    },
+    {
+        "name": "Chase",
+        "from": "2:00 PM",
+        "to": "2:15 PM",
+        "date": "9/1"
     }
 ]
