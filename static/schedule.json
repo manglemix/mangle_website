@@ -64,7 +64,7 @@
     {
         "name": "Office Hours",
         "from": "4:15 PM",
-        "to": "6:00 PM",
+        "to": "5:40 PM",
         "days": ["Tuesday"]
     },
     {
@@ -80,9 +80,10 @@
         "days": ["Friday"]
     },
     {
-        "name": "Chase",
-        "from": "2:00 PM",
-        "to": "2:15 PM",
-        "date": "9/1"
+        "name": "EAE 3010",
+        "from": "6:00 PM",
+        "to": "9:00 PM",
+        "location": "BLDG 72 117",
+        "days": ["Tuesday"]
     }
 ]
