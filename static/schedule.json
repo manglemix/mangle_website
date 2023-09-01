@@ -85,5 +85,12 @@
         "to": "9:00 PM",
         "location": "BLDG 72 117",
         "days": ["Tuesday"]
+    },
+    {
+        "name": "EAE Summit",
+        "from": "12:00 PM",
+        "to": "6:00 PM",
+        "location": "GC 1900",
+        "date": "9/8"
     }
 ]
