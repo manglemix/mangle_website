@@ -92,5 +92,12 @@
         "to": "6:00 PM",
         "location": "GC 1900",
         "date": "9/8"
+    },
+    {
+        "name": "USR Meeting",
+        "from": "6:00 PM",
+        "to": "7:00 PM",
+        "location": "MEK 3550",
+        "date": "9/6"
     }
 ]
