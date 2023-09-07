@@ -99,5 +99,12 @@
         "to": "7:00 PM",
         "location": "MEK 3550",
         "date": "9/6"
+    },
+    {
+        "name": "Flu Shot",
+        "from": "10:00 AM",
+        "to": "2:00 PM",
+        "location": "Stadium",
+        "date": "9/28"
     }
 ]
