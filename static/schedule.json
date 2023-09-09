@@ -106,5 +106,12 @@
         "to": "2:00 PM",
         "location": "Stadium",
         "date": "9/28"
+    },
+    {
+        "name": "Robotics Meeting",
+        "from": "6:30 PM",
+        "to": "7:00 PM",
+        "location": "Teams (Recorded)",
+        "date": "9/11"
     }
 ]
