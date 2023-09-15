@@ -75,8 +75,8 @@
     },
     {
         "name": "Office Hours",
-        "from": "4:30 PM",
-        "to": "6:00 PM",
+        "from": "1:45 PM",
+        "to": "3:45 PM",
         "days": ["Friday"]
     },
     {
@@ -87,18 +87,11 @@
         "days": ["Tuesday"]
     },
     {
-        "name": "EAE Summit",
-        "from": "12:00 PM",
-        "to": "6:00 PM",
-        "location": "GC 1900",
-        "date": "9/8"
-    },
-    {
         "name": "USR Meeting",
-        "from": "6:00 PM",
+        "from": "6:30 PM",
         "to": "7:00 PM",
-        "location": "MEK 3550",
-        "date": "9/6"
+        "location": "Teams (Recorded)",
+        "date": "9/18"
     },
     {
         "name": "Flu Shot",
@@ -106,12 +99,5 @@
         "to": "2:00 PM",
         "location": "Stadium",
         "date": "9/28"
-    },
-    {
-        "name": "UgSAC Meeting",
-        "from": "9:00 AM",
-        "to": "10:00 AM",
-        "location": "Two Creek Geology",
-        "date": "9/14"
     }
 ]
