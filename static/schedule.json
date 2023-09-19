@@ -88,10 +88,17 @@
     },
     {
         "name": "USR Meeting",
-        "from": "6:30 PM",
+        "from": "6:00 PM",
         "to": "7:00 PM",
-        "location": "Teams (Recorded)",
-        "date": "9/18"
+        "location": "Teams",
+        "date": "9/19"
+    },
+    {
+        "name": "HCDT Meeting",
+        "from": "5:30 PM",
+        "to": "6:30 PM",
+        "location": "Discord",
+        "date": "9/21"
     },
     {
         "name": "Flu Shot",
