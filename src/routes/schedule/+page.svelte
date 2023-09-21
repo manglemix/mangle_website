@@ -1,10 +1,41 @@
-<script>
+<script lang="ts">
+    function daysInMonth(month: number) {
+        return new Date(new Date().getFullYear(), month, 0).getDate();
+    }
+
     /** @type {import('./$types').PageData} */
     export let data;
-    const items = data.items;
+    var items = data.items;
     const date = new Date();
-    
     const DAYS = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+    items = items.filter((item: any) => {
+        if (item.date) {
+            const splitted = item.date.split("/");
+            const month = Number(splitted[0]) - 1;
+            const day = Number(splitted[1]);
+            
+            var daysInAdvance;
+            if (month - 1 == date.getMonth()) {
+                daysInAdvance = day + daysInMonth(date.getMonth()) - date.getDate();
+            } else if (month == date.getMonth()) {
+                daysInAdvance = day - date.getDate();
+            } else {
+                return;
+            }
+
+            if (daysInAdvance > 7 || daysInAdvance < 0) {
+                return;
+            }
+
+            var dayOfWeek = daysInAdvance + date.getDay();
+            if (dayOfWeek > 7) {
+                dayOfWeek -= 7;
+            }
+            item.days = [DAYS[dayOfWeek]];
+        }
+        return item;
+    });
 </script>
 
 <div class="timetable">
@@ -45,8 +76,5 @@
     
     .timetable {
         display:inline-block;
-    }
-
-    .item {
     }
 </style>
