@@ -24,7 +24,7 @@
                 return;
             }
 
-            if (daysInAdvance > 7 || daysInAdvance < 0) {
+            if (daysInAdvance >= 7 || daysInAdvance < 0) {
                 return;
             }
 
