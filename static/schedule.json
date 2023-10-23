@@ -108,10 +108,10 @@
         "days": ["Monday"]
     },
     {
-        "name": "USR Meeting",
-        "from": "1:20 PM",
-        "to": "2:50 PM",
-        "location": "Lib 1750B",
-        "date": "10/18"
+        "name": "PDR Meeting",
+        "from": "6:00 PM",
+        "to": "7:30 PM",
+        "location": "MEK 3660",
+        "date": "10/23"
     }
 ]
