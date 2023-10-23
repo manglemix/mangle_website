@@ -87,18 +87,11 @@
         "days": ["Tuesday"]
     },
     {
-        "name": "USR Meeting",
-        "from": "6:00 PM",
-        "to": "7:00 PM",
-        "location": "Teams",
-        "date": "9/19"
-    },
-    {
         "name": "UgSAC Meeting",
         "from": "9:00 AM",
-        "to": "10:00 AM",
+        "to": "9:45 AM",
         "location": "Coffee Shop",
-        "date": "9/21"
+        "days": ["Tuesday"]
     },
     {
         "name": "USR Meeting",
