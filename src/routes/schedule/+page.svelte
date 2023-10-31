@@ -3,7 +3,6 @@
         return new Date(new Date().getFullYear(), month, 0).getDate();
     }
 
-    /** @type {import('./$types').PageData} */
     export let data;
     var items = data.items;
     const date = new Date();
@@ -17,7 +16,7 @@
             
             var daysInAdvance;
             if (month - 1 == date.getMonth()) {
-                daysInAdvance = day + daysInMonth(date.getMonth()) - date.getDate();
+                daysInAdvance = day + daysInMonth(date.getMonth()) - date.getDate() + 1;
             } else if (month == date.getMonth()) {
                 daysInAdvance = day - date.getDate();
             } else {
