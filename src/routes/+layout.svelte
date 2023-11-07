@@ -1,4 +1,4 @@
-<title> Manglemix </title>
+<title>Manglemix</title>
 <div class="headerDiv">
 	<div class="navDiv">
 		<h3><a href="/">Home</a></h3>
@@ -9,13 +9,6 @@
 
 <slot />
 
-<br>
-<br>
-<hr />
-<br>
-<br>
-<br>
-<br>
 <style>
 	@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 	@import url('https://fonts.googleapis.com/css?family=JetBrains+Mono');

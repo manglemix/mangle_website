@@ -106,5 +106,19 @@
         "to": "6:30 PM",
         "location": "WEB",
         "date": "11/3"
+    },
+    {
+        "name": "UgSAC Meeting",
+        "from": "3:40 PM",
+        "to": "3:45 PM",
+        "location": "S BEH AUD",
+        "date": "11/7"
+    },
+    {
+        "name": "UgSAC Meeting",
+        "from": "11:30 AM",
+        "to": "11:35 AM",
+        "location": "WEB L104",
+        "date": "11/7"
     }
 ]
