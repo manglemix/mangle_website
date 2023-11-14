@@ -1,13 +1,14 @@
 <title>Manglemix</title>
-<div class="headerDiv">
-	<div class="navDiv">
+<header>
+	<nav>
 		<h3><a href="/">Home</a></h3>
 		<h3><a href="/contacts">Contacts</a></h3>
-	</div>
-</div>
-<hr />
+	</nav>
+</header>
 
+<div style="height: 4.5rem"/>
 <slot />
+<div style="height: 4.5rem"/>
 
 <style>
 	@import url('https://fonts.googleapis.com/css?family=Open+Sans');
@@ -17,6 +18,8 @@
 		font-family: 'Open Sans';
 		color: white;
 		text-align: center;
+		margin: 0px;
+		padding: 0px;
 	}
 
 	a {
@@ -30,7 +33,7 @@
 	:global(p) {
 		line-height: 35px;
 		max-width: 800px;
-		margin: auto;
+		text-align: left;
 	}
 
 	:global(h1) {
@@ -48,13 +51,18 @@
 		font-family: 'Jetbrains Mono';
 	}
 
-	.headerDiv {
+	header {
 		width: 100%;
-		display: inline-flex;
 		justify-content: center;
+		background-color: #111111;
+		height: 4rem;
+		display: flex;
+		align-items: center;
+		box-shadow: 0px 2px 10px #050505;
+		position: fixed;
 	}
 
-	.navDiv {
+	nav {
 		width: 300px;
 		display: inline-flex;
 		justify-content: space-around;
