@@ -116,9 +116,16 @@
     },
     {
         "name": "Micah Meeting",
-        "from": "6:30 PM",
-        "to": "7:00 PM",
+        "from": "3:00 PM",
+        "to": "4:10 PM",
+        "location": "Lib",
+        "date": "12/5"
+    },
+    {
+        "name": "USR Meeting",
+        "from": "6:00 PM",
+        "to": "7:30 PM",
         "location": "Teams",
-        "date": "11/20"
+        "date": "12/5"
     }
 ]
