@@ -1,131 +1,41 @@
 [
     {
-        "name": "CS 3810",
-        "from": "11:50 AM",
-        "to": "1:10 PM",
-        "location": "GC 1900",
-        "days": ["Monday", "Wednesday"]
-    },
-    {
-        "name": "CS 3540",
-        "from": "3:00 PM",
-        "to": "4:20 PM",
-        "location": "WEB L103",
-        "days": ["Monday", "Wednesday"]
-    },
-    {
-        "name": "CS 3550",
-        "from": "4:35 PM",
-        "to": "5:55 PM",
-        "location": "WEB L104",
-        "days": ["Monday", "Wednesday"]
-    },
-    {
-        "name": "EAE 2100",
-        "from": "2:00 PM",
-        "to": "3:20 PM",
-        "location": "GC 2900",
-        "days": ["Tuesday"]
-    },
-    {
-        "name": "EAE 2100",
-        "from": "2:00 PM",
-        "to": "3:20 PM",
-        "location": "LNCO 2850",
-        "days": ["Thursday"]
-    },
-    {
-        "name": "TA Lab",
-        "from": "11:50 AM",
-        "to": "12:40 PM",
-        "location": "MEB 2325",
-        "days": ["Tuesday"]
-    },
-    {
-        "name": "TA Lab",
-        "from": "12:55 PM",
-        "to": "1:45 PM",
-        "location": "MEB 2325",
-        "days": ["Tuesday"]
-    },
-    {
-        "name": "TA Meeting",
-        "from": "1:00 PM",
-        "to": "1:30 PM",
-        "location": "MEB 3515",
-        "days": ["Friday"]
-    },
-    {
-        "name": "Office Hours",
-        "from": "1:30 PM",
-        "to": "2:45 PM",
-        "days": ["Monday"]
-    },
-    {
-        "name": "Office Hours",
-        "from": "4:15 PM",
-        "to": "5:40 PM",
-        "days": ["Tuesday"]
-    },
-    {
-        "name": "Office Hours",
+        "name": "USR Meeting",
         "from": "12:00 PM",
-        "to": "1:30 PM",
-        "days": ["Thursday"]
+        "to": "1:00 PM",
+        "location": "MEK",
+        "date": "12/8"
     },
     {
         "name": "Office Hours",
-        "from": "1:45 PM",
-        "to": "3:45 PM",
-        "days": ["Friday"]
+        "from": "1:00 PM",
+        "to": "3:00 PM",
+        "date": "12/8"
     },
     {
-        "name": "EAE 3010",
+        "name": "Office Hours",
+        "from": "1:00 PM",
+        "to": "3:00 PM",
+        "date": "12/11"
+    },
+    {
+        "name": "Office Hours",
+        "from": "1:00 PM",
+        "to": "3:00 PM",
+        "date": "12/12"
+    },
+    {
+        "name": "CS 3550 Final",
         "from": "6:00 PM",
-        "to": "9:00 PM",
-        "location": "BLDG 72 117",
-        "days": ["Tuesday"]
+        "to": "7:20 PM",
+        "location": "WEB L104",
+        "date": "12/11"
     },
     {
-        "name": "UgSAC Meeting",
-        "from": "9:00 AM",
-        "to": "9:45 AM",
-        "location": "MEB 3515",
-        "days": ["Tuesday"]
-    },
-    {
-        "name": "USR Meeting",
-        "from": "6:00 PM",
-        "to": "6:30 PM",
-        "location": "Teams",
-        "days": ["Monday"]
-    },
-    {
-        "name": "USR Meeting",
-        "from": "5:00 PM",
-        "to": "6:30 PM",
-        "location": "WEB",
-        "date": "11/3"
-    },
-    {
-        "name": "UgSAC Meeting",
-        "from": "3:40 PM",
-        "to": "3:45 PM",
-        "location": "S BEH AUD",
-        "date": "11/7"
-    },
-    {
-        "name": "Micah Meeting",
-        "from": "3:00 PM",
-        "to": "4:10 PM",
-        "location": "Lib",
-        "date": "12/5"
-    },
-    {
-        "name": "USR Meeting",
-        "from": "6:00 PM",
-        "to": "7:30 PM",
-        "location": "Teams",
-        "date": "12/5"
+        "name": "CS 3810 Final",
+        "from": "10:30 AM",
+        "to": "11:50 AM",
+        "location": "GC 1900",
+        "date": "12/14"
     }
 ]
