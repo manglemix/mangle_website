@@ -37,5 +37,12 @@
         "to": "11:50 AM",
         "location": "GC 1900",
         "date": "12/14"
+    },
+    {
+        "name": "EAE 3010 Final",
+        "from": "6:00 PM",
+        "to": "8:00 PM",
+        "location": "Zoom",
+        "date": "12/13"
     }
 ]
