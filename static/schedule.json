@@ -44,5 +44,12 @@
         "to": "8:00 PM",
         "location": "Zoom",
         "date": "12/13"
+    },
+    {
+        "name": "CS 1420 Final",
+        "from": "3:20 PM",
+        "to": "5:00 PM",
+        "location": "S BEH AUD",
+        "date": "12/13"
     }
 ]
