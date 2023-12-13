@@ -51,5 +51,12 @@
         "to": "5:00 PM",
         "location": "S BEH AUD",
         "date": "12/13"
+    },
+    {
+        "name": "Chase meeting",
+        "from": "3:00 PM",
+        "to": "3:40 PM",
+        "location": "376 E 400 S Ste 100",
+        "date": "12/15"
     }
 ]
