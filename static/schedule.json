@@ -1,62 +1,37 @@
 [
     {
-        "name": "USR Meeting",
-        "from": "12:00 PM",
-        "to": "1:00 PM",
-        "location": "MEK",
-        "date": "12/8"
-    },
-    {
-        "name": "Office Hours",
-        "from": "1:00 PM",
-        "to": "3:00 PM",
-        "date": "12/8"
-    },
-    {
-        "name": "Office Hours",
-        "from": "1:00 PM",
-        "to": "3:00 PM",
-        "date": "12/11"
-    },
-    {
-        "name": "Office Hours",
-        "from": "1:00 PM",
-        "to": "3:00 PM",
-        "date": "12/12"
-    },
-    {
-        "name": "CS 3550 Final",
-        "from": "6:00 PM",
-        "to": "7:20 PM",
-        "location": "WEB L104",
-        "date": "12/11"
-    },
-    {
-        "name": "CS 3810 Final",
-        "from": "10:30 AM",
-        "to": "11:50 AM",
+        "name": "CS 1420",
+        "from": "1:25 PM",
+        "to": "2:45 PM",
         "location": "GC 1900",
-        "date": "12/14"
+        "days": ["Wednesday"]
     },
     {
-        "name": "EAE 3010 Final",
-        "from": "6:00 PM",
-        "to": "8:00 PM",
-        "location": "Zoom",
-        "date": "12/13"
+        "name": "DS 2500",
+        "from": "10:45 AM",
+        "to": "12:05 PM",
+        "location": "WEB L103",
+        "days": ["Tuesday", "Thursday"]
     },
     {
-        "name": "CS 1420 Final",
-        "from": "3:20 PM",
-        "to": "5:00 PM",
-        "location": "S BEH AUD",
-        "date": "12/13"
+        "name": "EAE 3660",
+        "from": "12:25 PM",
+        "to": "1:45 PM",
+        "location": "BLDG 72 117",
+        "days": ["Tuesday", "Thursday"]
     },
     {
-        "name": "Chase meeting",
-        "from": "3:00 PM",
-        "to": "3:40 PM",
-        "location": "376 E 400 S Ste 100",
-        "date": "12/15"
+        "name": "CS 4550",
+        "from": "2:00 PM",
+        "to": "3:20 PM",
+        "location": "WEB L104",
+        "days": ["Tuesday", "Thursday"]
+    },
+    {
+        "name": "TA Meeting",
+        "from": "5:30 PM",
+        "to": "6:15 PM",
+        "location": "MEB 3515",
+        "days": ["Wednesday"]
     }
 ]
