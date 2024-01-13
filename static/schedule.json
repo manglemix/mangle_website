@@ -33,5 +33,12 @@
         "to": "6:15 PM",
         "location": "MEB 3515",
         "days": ["Wednesday"]
+    },
+    {
+        "name": "USR Meeting",
+        "from": "1:00 PM",
+        "to": "2:15 PM",
+        "location": "Discord",
+        "date": "1/14"
     }
 ]
