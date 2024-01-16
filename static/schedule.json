@@ -40,5 +40,17 @@
         "to": "2:15 PM",
         "location": "Discord",
         "date": "1/14"
+    },
+    {
+        "name": "Office Hours",
+        "from": "1:30 PM",
+        "to": "3:30 PM",
+        "days": ["Monday", "Friday"]
+    },
+    {
+        "name": "Office Hours",
+        "from": "11:15 AM",
+        "to": "1:15 PM",
+        "days": ["Wednesday"]
     }
 ]
