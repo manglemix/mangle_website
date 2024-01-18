@@ -15,9 +15,9 @@
     },
     {
         "name": "EAE 3660",
-        "from": "12:25 PM",
-        "to": "1:45 PM",
-        "location": "BLDG 72 117",
+        "from": "9:10 AM",
+        "to": "10:30 AM",
+        "location": "BLDG 72 115",
         "days": ["Tuesday", "Thursday"]
     },
     {
