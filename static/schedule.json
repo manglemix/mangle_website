@@ -45,7 +45,13 @@
         "name": "Office Hours",
         "from": "1:30 PM",
         "to": "3:30 PM",
-        "days": ["Monday", "Friday"]
+        "days": ["Friday"]
+    },
+    {
+        "name": "Office Hours",
+        "from": "3:00 PM",
+        "to": "5:00 PM",
+        "days": ["Monday"]
     },
     {
         "name": "Office Hours",
