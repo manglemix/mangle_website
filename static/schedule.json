@@ -42,6 +42,13 @@
         "date": "1/14"
     },
     {
+        "name": "USR Meeting",
+        "from": "5:00 PM",
+        "to": "6:00 PM",
+        "location": "WEB L103",
+        "days": "1/22"
+    },
+    {
         "name": "Office Hours",
         "from": "1:30 PM",
         "to": "3:30 PM",
