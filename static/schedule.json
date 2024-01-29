@@ -43,10 +43,10 @@
     },
     {
         "name": "USR Meeting",
-        "from": "5:00 PM",
-        "to": "6:00 PM",
-        "location": "WEB L103",
-        "days": "1/22"
+        "from": "5:30 PM",
+        "to": "6:30 PM",
+        "location": "Teams",
+        "days": ["Monday"]
     },
     {
         "name": "Office Hours",
