@@ -35,11 +35,11 @@
         "days": ["Wednesday"]
     },
     {
-        "name": "USR Meeting",
-        "from": "1:00 PM",
-        "to": "2:15 PM",
+        "name": "UtahSec Meeting",
+        "from": "5:00 PM",
+        "to": "6:00 PM",
         "location": "Discord",
-        "date": "1/14"
+        "date": "2/8"
     },
     {
         "name": "USR Meeting",
