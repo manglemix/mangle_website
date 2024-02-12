@@ -65,5 +65,11 @@
         "from": "11:15 AM",
         "to": "1:15 PM",
         "days": ["Wednesday"]
+    },
+    {
+        "name": "Eye Exam",
+        "from": "2:45 PM",
+        "to": "3:15 PM",
+        "date": "2/15"
     }
 ]
